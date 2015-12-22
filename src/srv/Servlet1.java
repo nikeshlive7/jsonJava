@@ -15,8 +15,7 @@ import java.util.*;
  */
 public class Servlet1 extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-
-
+        System.out.println("hi");
         StringBuilder sb = new StringBuilder();
         BufferedReader br = request.getReader();
         String str1;
